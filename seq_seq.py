@@ -51,7 +51,7 @@ class TransformerModel(nn.Module):
         output = self.transformer_encoder(src, src_mask)
         output = self.decoder(output)
         return output
-
+  
 
 class PositionalEncoding(nn.Module):
 
