@@ -15,7 +15,7 @@ from torchtext.vocab import build_vocab_from_iterator
  
 import copy   
 import time
- 
+         
 class TransformerModel(nn.Module):
      
     def __init__(self, ntoken: int, d_model: int, nhead: int, d_hid: int,
